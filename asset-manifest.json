@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Crochic/static/css/main.d2e8276c.css",
+    "main.js": "/Crochic/static/js/main.79323b6a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Crochic/static/js/787.28cb0dcd.chunk.js",
+    "static/media/about.gif": "/Crochic/static/media/about.c05aabb7e79f07f7f539.gif",
+    "static/media/bea.png": "/Crochic/static/media/bea.512cadeccab1c3a90d67.png",
+    "static/media/bear.png": "/Crochic/static/media/bear.8e4ac0a3a719f7ca5e11.png",
+    "static/media/blanket.png": "/Crochic/static/media/blanket.d0f1fcf4b064a51c7aec.png",
+    "static/media/jacket.png": "/Crochic/static/media/jacket.31586b90fc67dbed5742.png",
+    "static/media/am.png": "/Crochic/static/media/am.3d7768b61bb212be38b7.png",
+    "static/media/cardi.png": "/Crochic/static/media/cardi.15ce622bff253abf036f.png",
+    "static/media/blan.png": "/Crochic/static/media/blan.d2c6349226f159fe9bab.png",
+    "static/media/keychain.png": "/Crochic/static/media/keychain.db76d710e198dc432c97.png",
+    "static/media/card.jpeg": "/Crochic/static/media/card.372cac41f53b53b7004f.jpeg",
+    "static/media/sc.jpg": "/Crochic/static/media/sc.f60e2a90f3c9d011d5c6.jpg",
+    "static/media/cr4.jpg": "/Crochic/static/media/cr4.74b0bb67f5d41725567e.jpg",
+    "static/media/beanie.jpg": "/Crochic/static/media/beanie.48657597f999f0f90426.jpg",
+    "static/media/logo.png": "/Crochic/static/media/logo.04c6039a9f83bd1665f6.png",
+    "index.html": "/Crochic/index.html",
+    "main.d2e8276c.css.map": "/Crochic/static/css/main.d2e8276c.css.map",
+    "main.79323b6a.js.map": "/Crochic/static/js/main.79323b6a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Crochic/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2e8276c.css",
+    "static/js/main.79323b6a.js"
+  ]
+}
