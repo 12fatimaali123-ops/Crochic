@@ -1,0 +1,126 @@
+.wishlist-btn {
+  background: white;
+  border: 1px solid #e8c9b5;
+  color: #7a4f2e;
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 6px;
+  transition: 0.2s ease;
+}
+
+.wishlist-btn:hover {
+  background: #f5e6dc;
+}
+
+.wishlist-btn.added {
+  color: red;
+  border-color: red;
+  background: white;
+}
+
+.wishlist-nav-icon {
+  position: relative;
+  font-size: 24px;
+  color: #7a4f2e;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.wishlist-nav-icon:hover {
+  color: red;
+}
+
+.wishlist-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 11px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlist-page {
+  min-height: 100vh;
+  background: #faf8f6;
+  padding: 40px 20px;
+}
+
+.wishlist-page-title {
+  font-family: "Dancing Script", cursive;
+  color: #7a4f2e;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.wishlist-page-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wishlist-page-card {
+  background: white;
+  padding: 14px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.wishlist-page-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.wishlist-page-card h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #222;
+}
+
+.wishlist-page-card p {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.empty-wishlist {
+  text-align: center;
+  color: #7a4f2e;
+  font-size: 16px;
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .wishlist-page-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 500px) {
+  .wishlist-page-grid {
+    grid-template-columns: 1fr;  
+  }
+  
+  .wishlist-page-title {
+    font-size: 32px;  
+  }
+}
+.wishlist-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}

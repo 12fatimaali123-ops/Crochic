@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #faf8f6;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .faq-page {
+    padding: 40px 14px;
+    background: #faf8f6;
+    min-height: 100vh;
+  }
+
+  .faq-title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 42px;
+    color: #7a4f2e;
+    margin-bottom: 30px;
+  }
+
+  .faq-list {
+    width: 100%;
+  }
+
+  .faq-item {
+    background: white;
+    margin-bottom: 8px;
+    border-left: 3px solid #f0d6c6;
+  }
+
+  .faq-question {
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 16px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    color: #333;
+    text-align: left;
+  }
+
+  .faq-arrow {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .faq-answer {
+    padding: 0 28px 18px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    background: white;
+  }
+
+  @media (max-width: 768px) {
+    .faq-title {
+      font-size: 34px;
+    }
+
+    .faq-question {
+      font-size: 15px;
+      padding: 14px 18px;
+    }
+
+    .faq-answer {
+      padding: 0 18px 16px;
+    }
+  }
